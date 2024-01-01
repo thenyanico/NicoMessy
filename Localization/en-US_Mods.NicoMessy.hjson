@@ -58,8 +58,8 @@ Items: {
 
 Projectiles: {
 	Lproj.DisplayName: L
-	Arrowdown.DisplayName: Arrowdown
-	Arrowleft.DisplayName: Arrowleft
-	Arrowright.DisplayName: Arrowright
-	Arrowup.DisplayName: Arrowup
+	Arrowdown.DisplayName: Down Facing Arrow
+	Arrowleft.DisplayName: Left Facing Arrow
+	Arrowright.DisplayName: Right Facing Arrow
+	Arrowup.DisplayName: Up Facing Arrow
 }

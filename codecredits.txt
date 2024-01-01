@@ -21,3 +21,5 @@ https://github.com/StormDiver/StormDiversMod
 
 Although the code i copied were modified in one way or another, These mods have helped a LOT with stuff i've had trouble
 finding solutions for online.
+
+Any code copied will be marked with a comment near the top of the .cs file.

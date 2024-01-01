@@ -6,6 +6,11 @@ using Microsoft.Xna.Framework;
 
 namespace NicoMessy.Miscellany.Systems
 {
+    /*
+     
+    The code in here was using the mod Len's Randoms as reference.
+
+     */
     public class MessyPlayer : ModPlayer
     {
         public static MessyPlayer Modplayer(Player player)

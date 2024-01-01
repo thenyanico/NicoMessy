@@ -9,5 +9,11 @@ You're free to download this... if you're okay with items that may be absolutely
 Please Note: Since i'm a bit of a crazy person, there could be no updates in weeks (maybe months); but then there could be an update happening every day for a bit.
 
 
+
 At the moment, there is very little content included. However i'm currently in a very big Terraria brainrot so there will be frequent updates!
 
+Feature List will be included soon, once there is a bigger number of added content.
+
+
+Open-Sourced! Code Viewable at https://github.com/ayuurei/NicoMessy
+Custom Sprites and Most Code by Me, Nicowo a.k.a. Ayuurei
