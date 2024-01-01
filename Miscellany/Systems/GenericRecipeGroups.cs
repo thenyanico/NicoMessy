@@ -1,19 +1,18 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.Localization;
 
 namespace NicoMessy.Miscellany.Systems
-{
+    {
     /*
     
     The code in here was directly copied from Storm's Additions Mod with slight modifications.
      
      */
     public class GenericRecipeGroups : ModSystem
-    {
-        public override void AddRecipeGroups()
         {
+        public override void AddRecipeGroups()
+            {
             RecipeGroup group = new RecipeGroup(() => "Any Evil Bars", new int[]
             {
                 ItemID.DemoniteBar,
@@ -70,6 +69,6 @@ namespace NicoMessy.Miscellany.Systems
             });
             RecipeGroup.RegisterGroup("NicoMessy:TitaniumBars", group);
 
+            }
         }
     }
-}
