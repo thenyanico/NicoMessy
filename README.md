@@ -5,8 +5,7 @@ Feel free to post on the **Issues** tab for bugs that could be fixed.
 
 
 ## Steam Workshop Page
-xxxxx (note to self: pls add this before going to sleep)
-
+(https://steamcommunity.com/sharedfiles/filedetails/?id=3128633865)
 
 
 ## On the topic of the code
