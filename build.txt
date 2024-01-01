@@ -1,0 +1,3 @@
+displayName = Nico's Messy Miscellany
+author = nicowo
+version = 0.1

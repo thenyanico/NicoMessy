@@ -1,0 +1,23 @@
+                                _                                                                                                                                         
+  ____   _  ____  ______  _____|_|______   ____    __  ______  ______  ______ __    _  ____    __  ____  ______  ______  ______  ____    ____    ____    ____   _ __    _ 
+ |    \ | ||    ||   ___|/     \ |   ___| |    \  /  ||   ___||   ___||   ___|\ \  // |    \  /  ||    ||   ___||   ___||   ___||    |  |    |  |    \  |    \ | |\ \  // 
+ |     \| ||    ||   |__ |     |  `-.`-.  |     \/   ||   ___| `-.`-.  `-.`-.  \ \//  |     \/   ||    | `-.`-. |   |__ |   ___||    |_ |    |_ |     \ |     \| | \ \//  
+ |__/\____||____||______|\_____/ |______| |__/\__/|__||______||______||______| /__/   |__/\__/|__||____||______||______||______||______||______||__|\__\|__/\____| /__/   
+                                                                                                                                                                          
+                                                                                                                                                                          
+Hello! This entire Text File will contain some credits for code that i've "borrowed"
+
+First off, Nothing will beat how useful the Terraria Forums are, people have had similar problems to me before and searching
+through there is a blast because most of my problems were solved easily... most of the time.
+
+
+Now for the mods i've obtained code from in one way or another:
+
+Len's Randoms - by V2LenKagamine / Len Kagamine
+https://github.com/V2LenKagamine/LensRands
+
+Storm's Additions Mod - by StormDivers / TheStorm
+https://github.com/StormDiver/StormDiversMod
+
+Although the code i copied were modified in one way or another, These mods have helped a LOT with stuff i've had trouble
+finding solutions for online.

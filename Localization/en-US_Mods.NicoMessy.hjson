@@ -1,0 +1,65 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	BasicWhat: {
+		DisplayName: tModLoader's Basic Sword
+		Tooltip:
+			'''
+			It's THE iconic Basic Sword. Every modder has likely seen this sword at least once in their modding journey.
+
+			...Despite being a test item, something tells you that this sword might be more useful than you think.
+			'''
+	}
+
+	Lweap: {
+		DisplayName: The L
+		Tooltip:
+			'''
+			Tired of taking the L? Now you can throw it back at them!
+
+			[c/32FF82:Dev Item, Not Intended for Regular Use]
+			'''
+	}
+
+	MessyEssence: {
+		DisplayName: Messy Essence
+		Tooltip: Has a very uncanny resemblence to a pillow...
+	}
+
+	TenderGel: {
+		DisplayName: Tender Gel
+		Tooltip: Do not eat!
+	}
+
+	Microphone: {
+		DisplayName: Microphone
+		Tooltip:
+			'''
+			Fires 4 arrows to home into your rivals!
+
+			[c/65D5F7:I'm cranking fuckin 90's Bosip!]
+			'''
+	}
+
+	Heartsteel: {
+		DisplayName: Heartsteel
+		Tooltip:
+			'''
+			Increases Max HP by {0}% of Base Max HP
+			Increases HP Regen by {1}
+			Decreases Damage Taken by {2}%
+
+			Despite what you may think, this accessory wasn't supposed to
+			be this basic... I'm just bad at coding ;p
+			[c/65D5F7:Every time you pop off, they hopin' that you fall hard~]
+			'''
+	}
+}
+
+Projectiles: {
+	Lproj.DisplayName: L
+	Arrowdown.DisplayName: Arrowdown
+	Arrowleft.DisplayName: Arrowleft
+	Arrowright.DisplayName: Arrowright
+	Arrowup.DisplayName: Arrowup
+}
