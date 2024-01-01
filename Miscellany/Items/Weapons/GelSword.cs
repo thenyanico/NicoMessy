@@ -30,6 +30,7 @@ namespace NicoMessy.Miscellany.Items.Weapons
 			// Others
 			Item.value = Item.sellPrice(0,3,31,15);
 			Item.UseSound = SoundID.Item1;
+			Item.autoReuse = true;
 		}
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
         {
