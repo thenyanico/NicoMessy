@@ -1,6 +1,8 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.GameContent.Creative;
+using Microsoft.Xna.Framework;
 
 namespace NicoMessy.Miscellany.Items.Weapons
 {
@@ -12,17 +14,17 @@ namespace NicoMessy.Miscellany.Items.Weapons
 		public override void SetDefaults()
 		{
 			// Damage
-			Item.damage = 144;
+			Item.damage = 14;
 			Item.DamageType = DamageClass.Melee;
-            Item.useTime = 14;
-            Item.useAnimation = 14;
+            Item.useTime = 28;
+            Item.useAnimation = 28;
             Item.knockBack = 1.4f;
             Item.crit = 14;
 
             // Sprite Stuff
             Item.width = 40;
 			Item.height = 40;
-            Item.scale = 1.1f;
+            Item.scale = 0.9f;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.rare = ItemRarityID.Blue;
 			
@@ -31,17 +33,17 @@ namespace NicoMessy.Miscellany.Items.Weapons
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
 		}
-
 		public override void AddRecipes()
 		{
 			// Recipe of item
 
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.StoneBlock, 144);
-            recipe.AddIngredient(ItemID.IronOre, 14);
-            recipe.AddIngredient(ItemID.IronBar, 14);
+            recipe.AddIngredient(ItemID.IronOre, 144);
+            recipe.AddIngredient(ItemID.IronBar, 144);
             recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}
-	}
+
+    }
 }

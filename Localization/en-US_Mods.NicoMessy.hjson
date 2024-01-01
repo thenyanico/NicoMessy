@@ -54,6 +54,16 @@ Items: {
 			[c/65D5F7:Every time you pop off, they hopin' that you fall hard~]
 			'''
 	}
+
+	GelSword: {
+		DisplayName: Gel Sword
+		Tooltip:
+			'''
+			Cut through your enemies with toughened gel
+
+			[c/65D5F7:Theoretically should do less damage than wood, however... Game logic.]
+			'''
+	}
 }
 
 Projectiles: {
