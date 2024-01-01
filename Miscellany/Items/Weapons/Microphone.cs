@@ -19,7 +19,7 @@ namespace NicoMessy.Miscellany.Items.Weapons
         public override void SetDefaults()
 		{
             // Damage
-            Item.damage = 42;
+            Item.damage = 41;
             Item.mana = 27;
 			Item.DamageType = DamageClass.Magic;
             Item.useTime = 12;
@@ -30,7 +30,7 @@ namespace NicoMessy.Miscellany.Items.Weapons
 
 			// Projectile Call
 			Item.shoot = ProjectileID.PurificationPowder; // For some reason, all the guns in the vanilla source have this.
-            Item.shootSpeed = 12.5f;
+            Item.shootSpeed = 11.7f;
 
             // Sprite Stuff
             Item.width = 32;
@@ -55,8 +55,8 @@ namespace NicoMessy.Miscellany.Items.Weapons
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddRecipeGroup("NicoMessy:GoldBars", 25);
-            recipe.AddRecipeGroup("IronBar", 40);
-            recipe.AddIngredient(ItemID.ManaCrystal, 1);
+            recipe.AddRecipeGroup("IronBar", 30);
+            recipe.AddIngredient(ItemID.ManaCrystal, 3);
             recipe.AddIngredient<MessyEssence>(4);
             recipe.AddTile(TileID.Anvils);
 			recipe.Register();

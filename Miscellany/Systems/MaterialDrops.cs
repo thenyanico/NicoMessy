@@ -10,14 +10,14 @@ namespace NicoMessy.Miscellany.Systems
     {
         public override void ModifyGlobalLoot(GlobalLoot globalLoot)
         {
-            globalLoot.Add(ItemDropRule.Common(ModContent.ItemType<MessyEssence>(), 500, 1, 3));
+            globalLoot.Add(ItemDropRule.Common(ModContent.ItemType<MessyEssence>(), 750));
         }
         public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot)
         {
             if (npc.type == NPCID.KingSlime || npc.type == NPCID.QueenSlimeBoss) // From what mob it drops
             { 
                 // Add(ItemDropRule.Common( *what it drops*, *how rare*, *minimum amount*, *maximum amount*));
-                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<TenderGel>(), 1, 30, 60));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<TenderGel>(), 1, 10, 20));
             }
         }
     }
