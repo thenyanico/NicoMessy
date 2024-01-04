@@ -7,7 +7,7 @@ Items: {
 			'''
 			It's THE iconic Basic Sword. Every modder has likely seen this sword at least once in their modding journey.
 
-			...Despite being a test item, something tells you that this sword might be more useful than you think.
+			Despite being a basic item, something tells you that this sword might be more useful than you think.
 			'''
 	}
 
@@ -35,7 +35,7 @@ Items: {
 		DisplayName: Microphone
 		Tooltip:
 			'''
-			Fires 4 arrows to home into your rivals!
+			Fires 4 arrows that home into your rivals!
 
 			[c/65D5F7:I'm cranking fuckin 90's Bosip!]
 			'''
@@ -45,12 +45,11 @@ Items: {
 		DisplayName: Heartsteel
 		Tooltip:
 			'''
-			Increases Max HP by {0}% of Base Max HP
-			Increases HP Regen by {1}
-			Decreases Damage Taken by {2}%
+			Significantly Increases Survivability by:
+			Increasing Max HP by {0}% of Base Max HP
+			Increasing HP Regen by {1}
+			Decreasing Damage Taken by {2}%
 
-			Despite what you may think, this accessory wasn't supposed to
-			be this basic... I'm just bad at coding ;p
 			[c/65D5F7:Every time you pop off, they hopin' that you fall hard~]
 			'''
 	}
