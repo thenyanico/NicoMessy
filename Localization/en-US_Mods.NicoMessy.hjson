@@ -23,7 +23,12 @@ Items: {
 
 	MessyEssence: {
 		DisplayName: Messy Essence
-		Tooltip: Has a very uncanny resemblence to a pillow...
+		Tooltip:
+			'''
+			Has a very uncanny resemblence to a pillow...
+
+			[c/65D5F7:Sorry, Is that my FUR!?]
+			'''
 	}
 
 	TenderGel: {
@@ -35,7 +40,7 @@ Items: {
 		DisplayName: Microphone
 		Tooltip:
 			'''
-			Fires 4 arrows that home into your rivals!
+			Create 4 arrows that fall from the sky!
 
 			[c/65D5F7:I'm cranking fuckin 90's Bosip!]
 			'''
@@ -63,6 +68,17 @@ Items: {
 			[c/65D5F7:Theoretically should do less damage than wood, however... Game logic.]
 			'''
 	}
+
+	GusBalloon: {
+		DisplayName: Spooky
+		Tooltip:
+			'''
+			Send balloons flying towards your enemies
+
+			...Something Ethereal tells you that you're holding the balloon wrong.
+			[c/65D5F7:Spooky is gonna get you!]
+			'''
+	}
 }
 
 Projectiles: {
@@ -71,4 +87,5 @@ Projectiles: {
 	Arrowleft.DisplayName: Left Facing Arrow
 	Arrowright.DisplayName: Right Facing Arrow
 	Arrowup.DisplayName: Up Facing Arrow
+	BalloonProj.DisplayName: Balloon Proj
 }
