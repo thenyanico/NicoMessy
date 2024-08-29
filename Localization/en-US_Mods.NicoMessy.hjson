@@ -80,6 +80,19 @@ Items: {
 			[c/65D5F7:Spooky is gonna get you!]
 			'''
 	}
+
+	ColonThree: {
+		DisplayName: Colon Three
+		Tooltip:
+			'''
+			You feel ever so slightly more whimsical.
+			Decreases your Max HP by {0}%
+			Increases your HP Regen by {1}
+
+
+			[c/65D5F7:The Unbridled Whimsy- It's too silly..!]
+			'''
+	}
 }
 
 Projectiles: {
@@ -89,4 +102,11 @@ Projectiles: {
 	Arrowright.DisplayName: Right Facing Arrow
 	Arrowup.DisplayName: Up Facing Arrow
 	BalloonProj.DisplayName: Balloon
+}
+
+Buffs: {
+	Zoomies: {
+		DisplayName: Zoomies!
+		Description: holy shit you're going real fast-
+	}
 }

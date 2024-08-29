@@ -10,7 +10,7 @@ namespace NicoMessy.Miscellany.Items.Weapons
 		public override void SetDefaults()
 			{
 			// Damage
-			Item.damage = 21;
+			Item.damage = 23;
 			Item.DamageType = DamageClass.Melee;
 			Item.useTime = 24;
 			Item.useAnimation = 24;
