@@ -9,10 +9,12 @@ namespace NicoMessy.Miscellany.Items.Accessories
 	public class Heartsteel : ModItem
 		{
 
-		// By declaring these here, changing the values will alter the effect, and the tooltip
-		public static readonly int HeartsteelRegen = 5;
+        // This is the NO BUFF ACCESSORY base template, cuz im lazy.
+
+        // By declaring these here, changing the values will alter the effect, and the tooltip
+        public static readonly int HeartsteelRegen = 5;
 		public static readonly float HeartsteelHP = 0.1f;
-		public static readonly float HeartsteelDMGReduc = 0.2f;
+		public static readonly float HeartsteelDMGReduc = 0.1f;
 		public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs((int)(HeartsteelHP * 100), HeartsteelRegen, (int)(HeartsteelDMGReduc * 100));
 
 		public override void SetDefaults()

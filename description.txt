@@ -4,16 +4,17 @@ One may consider this mod as just... a bundle of random crap.
 You could say... a bunch of "Miscellaneous" stuff :3
 
 This entire mod was made with the sole purpose of being something i can mess around with in my solo worlds, or with my friends.
-You're free to download this... if you're okay with items that may be absolutely asinine, or ones that will literally make the game a living nightmare (for both you the enemies, of course)
+You're free to download this... if you're okay with items that may be absolutely asinine, or ones that will literally make the game a living nightmare (for both you and the enemies, of course)
 
 Please Note: Since i'm a bit of a crazy person, there could be no updates in weeks (maybe months); but then there could be an update happening every day for a bit.
 
 
 
-At the moment, there is very little content included. However i'm currently in a very big Terraria brainrot so there will be frequent updates!
+At the moment, there is very little content included. However as time passes more and more stuff will come!
 
 Feature List will be included soon, once there is a bigger number of added content.
+Do note however that a majority of the added items are inspired by other games, such as League of Legends and Darkest Dungeon!
 
 
-Open-Sourced! Code Viewable at https://github.com/ayuurei/NicoMessy
-Custom Sprites and Most Code by Me, Nicowo a.k.a. Ayuurei
+Open-Sourced! Code Viewable at https://github.com/thenyanico/NicoMessy
+Custom Sprites and Most Code by Me, thenyanico

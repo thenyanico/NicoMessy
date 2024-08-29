@@ -34,6 +34,13 @@ namespace NicoMessy.Miscellany.Systems
             });
             RecipeGroup.RegisterGroup("NicoMessy:CopperBars", group);
 
+            group = new RecipeGroup(() => "Any Iron Tier Bars", new int[]
+{
+                ItemID.IronBar,
+                ItemID.LeadBar
+});
+            RecipeGroup.RegisterGroup("NicoMessy:IronBars", group);
+
             group = new RecipeGroup(() => "Any Silver Tier Bars", new int[]
            {
                 ItemID.SilverBar,

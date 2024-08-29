@@ -13,7 +13,7 @@ namespace NicoMessy.Miscellany.Systems
 		{
 		public const string SoundFolder = "NicoMessy/Miscellany/Sounds/";
 
-		// Gus' Balloon / Spooky
+		// Gus' Balloon
 		public static readonly SoundStyle BalloonHit = new(SoundFolder + "GusBalloon_hit");
 		public static readonly SoundStyle BalloonMiss = new(SoundFolder + "GusBalloon_miss");
 		}

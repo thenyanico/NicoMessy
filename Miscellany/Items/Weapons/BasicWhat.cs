@@ -38,7 +38,7 @@ namespace NicoMessy.Miscellany.Items.Weapons
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.StoneBlock, 144);
 			recipe.AddIngredient(ItemID.IronOre, 144);
-			recipe.AddIngredient(ItemID.IronBar, 144);
+			recipe.AddIngredient(ItemID.IronBar, 14);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 			}

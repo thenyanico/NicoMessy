@@ -21,7 +21,7 @@ namespace NicoMessy.Miscellany.Items.Weapons
             {
             // Damage
             Item.damage = 40;
-            Item.mana = 29;
+            Item.mana = 27;
             Item.DamageType = DamageClass.Magic;
             Item.useTime = 12;
             Item.reuseDelay = 9;
@@ -65,9 +65,9 @@ namespace NicoMessy.Miscellany.Items.Weapons
         public override void AddRecipes()
             {
             Recipe recipe = CreateRecipe();
-            recipe.AddRecipeGroup("NicoMessy:GoldBars", 25);
-            recipe.AddRecipeGroup("IronBar", 30);
-            recipe.AddIngredient(ItemID.ManaCrystal, 3);
+            recipe.AddRecipeGroup("NicoMessy:GoldBars", 20);
+            recipe.AddRecipeGroup("NicoMessy:IronBars", 35);
+            recipe.AddIngredient(ItemID.ManaCrystal, 5);
             recipe.AddIngredient<MessyEssence>(4);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

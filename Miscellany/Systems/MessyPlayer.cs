@@ -1,5 +1,7 @@
-﻿using Terraria;
+﻿using NicoMessy.Miscellany.Buffs;
+using Terraria;
 using Terraria.ModLoader;
+using Terraria.WorldBuilding;
 
 namespace NicoMessy.Miscellany.Systems
 	{
@@ -16,19 +18,39 @@ namespace NicoMessy.Miscellany.Systems
 			}
 
 		// Accessories
+
+		// // League of Legends
 		public bool HeartsteelEquipped;
 		public readonly float HeartsteelDmgReduc = 0.2f;
 
 		public int LeagueItemsEquipped = 0;
 
+		// // "Miscellany"
+
+		public bool ColonThreeEquipped;
+
+
 		// Overrides
 		public override void ModifyHurt(ref Player.HurtModifiers modifiers)
-			{
+		{
+			// League of Legends
 			if (HeartsteelEquipped)
-				{
+			{
 				modifiers.FinalDamage *= 1f - HeartsteelDmgReduc;
-				}
 			}
-
 		}
+
+        public override void OnHitByNPC(NPC npc, Player.HurtInfo hurtInfo)
+        {
+			// required base
+            base.OnHitByNPC(npc, hurtInfo);
+
+			// "Miscellany"
+			if (ColonThreeEquipped)
+			{
+				Player.AddBuff(ModContent.BuffType<Zoomies>(), 3);
+			}
+        }
+
+    }
 	}

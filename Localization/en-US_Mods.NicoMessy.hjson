@@ -27,6 +27,7 @@ Items: {
 			'''
 			Has a very uncanny resemblence to a pillow...
 
+			For some reason, you get the feeling that you should collect as much of these as you can.
 			[c/65D5F7:Sorry, Is that my FUR!?]
 			'''
 	}
@@ -70,7 +71,7 @@ Items: {
 	}
 
 	GusBalloon: {
-		DisplayName: Spooky
+		DisplayName: Mysterious Yellow Balloon
 		Tooltip:
 			'''
 			Send balloons flying towards your enemies
@@ -87,5 +88,5 @@ Projectiles: {
 	Arrowleft.DisplayName: Left Facing Arrow
 	Arrowright.DisplayName: Right Facing Arrow
 	Arrowup.DisplayName: Up Facing Arrow
-	BalloonProj.DisplayName: Balloon Proj
+	BalloonProj.DisplayName: Balloon
 }
